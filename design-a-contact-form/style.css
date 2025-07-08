@@ -1,0 +1,33 @@
+body{
+  background-color:cyan;
+}
+.form-container{
+ background-color:white;
+ border-radius:10px;
+  padding:10px;
+  width:40vw;
+  text-align:center;
+  margin:20px auto;
+}
+label{
+  margin:10px;
+  color:grey;
+}
+input,textarea{
+  width:90%;
+  padding:10px;
+  margin-bottom:15px;
+}
+button{
+  background-color:#4CAF50;
+  color:white;
+  border:none;
+  padding:5px;
+  font-size:15px;
+}
+button:hover{ background-color:green;
+}
+a{
+  text-decoration:none;
+  color:white;
+}
