@@ -1,0 +1,31 @@
+#main{
+    height: auto;
+    width: 95vw;
+    text-align: center;
+    background-color: #EEEEEE;
+    margin: 20px auto;
+    font-family:"Segoe UI",Helvetica, sans-serif;
+    font-size: larger;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+#title{
+    padding-top: 30px;
+}
+#img-div{
+    width:95%;
+    background-color: white;
+    margin: 10px auto;
+    height: 850px ;
+}
+#image{
+    display: block;
+    width: 85vw;
+    max-width: 100%;
+    margin: 10px auto;
+}
+#tribute-info{
+    width: 60vw;
+    margin: 5px auto;
+}
+
