@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+   height: 100vh;
+  background: linear-gradient(to bottom, #B3E6FF 50%, #008000 50%);
+}
+#house {
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  width: 500px;
+  height: 400px;
+  background-color: #ff9980;
+  border: 5px solid #b35900;
+
+}
+#chimney {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  width: 90px;
+  height: 55px;
+  z-index: 1;
+  transform: translateX(50%);
+  border: 2px solid black;
+  background-color: white;
+  box-shadow: inset 0 10px 0 black, inset 0 20px 0 black, inset 0 30px 0 black;
+}
+#roof {
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  border-bottom: 5px solid #a0521d;
+  background: repeating-linear-gradient(
+    45deg,
+    #a0521d 0,
+    #a0521d 10px,
+    #f98c75 10px,
+    #f98c75 20px
+  );
+}
+#window-1 {
+  position: absolute;
+  top: 140px;
+  left: 50px;
+  width: 90px;
+  height: 100px;
+  background: #fffacd;
+  border: 5px solid #a0521d;
+}
+#window-2 {
+  position: absolute;
+  top: 140px;
+  right: 50px;
+  width: 90px;
+  height: 100px;
+  background: #fffacd;
+  border: 5px solid #a0521d;
+}
+#door {
+  position: absolute;
+  width: 120px;
+  height: 150px;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #e0e0e0;
+  border: 5px solid #a0521d;
+}
+#knob {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #b35900;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+#welcome {
+  position: absolute;
+  bottom: 32%;
+  left: 50%;
+  transform: translateX(-50%) skewX(-20deg);
+  background: #85E085;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  border: 2px solid black;
+  font-family: sans-serif;
+}
