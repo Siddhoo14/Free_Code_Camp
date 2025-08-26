@@ -89,3 +89,8 @@ body {
   text-align: left;
   padding: 2rem 0 0;
 }
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
