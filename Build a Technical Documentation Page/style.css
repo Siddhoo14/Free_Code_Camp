@@ -27,7 +27,7 @@ body {
 }
 #navbar > ul {
   padding: 0;
-  overflow-y: auto;
+  overflow-y: auto; 
   overflow-x: hidden;
   height: 90%;
   list-style: none;
