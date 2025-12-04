@@ -1,48 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Design a Feature Selection Page</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="container">
-        <section class="heading">
-            <h1>Feature Selection</h1>
-        </section>
-        <section class="card-container">
-            <div class="card">
-                <label><input type="checkbox"></label>
-                <h2>Cloud Storage</h2>
-                <p>100 Gigabyte secure storage</p>
-            </div>
-            <div class="card">
-                <label><input type="checkbox"></label>
-                <h2>Dedicated Support</h2>
-                <p>24/7 customer help</p>
-            </div>
-            <div class="card">
-                <label><input type="checkbox"></label>
-                <h2>Advanced Analytics</h2>
-                <p>Insights & reports</p>
-            </div>
-            <div class="card">
-                <label><input type="checkbox"></label>
-                <h2>Custom User Themes</h2>
-                <p>Personalized dashboard design</p>
-            </div>
-            <div class="card">
-                <label><input type="checkbox"></label>
-                <h2>Multi-User Collab</h2>
-                <p>Team access and sharing</p>
-            </div>
-            <div class="card">
-                <label><input type="checkbox"></label>
-                <h2>API Access</h2>
-                <p>Integrate with your custom built tools</p>
-            </div>
-        </section>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Feature Selection</h1>
+    <div class="feature-card-container">
+      <label for="cloud-storage">
+        <input type="checkbox" id="cloud-storage" />Cloud Storage
+        <p>100 Gigabyte secure storage</p>
+      </label>
+      <label for="dedicated-support">
+        <input type="checkbox" id="dedicated-support" />Dedicated Support
+        <p>24/7 customer help</p>
+      </label>
+      <label for="advanced-analytics">
+        <input type="checkbox" id="advanced-analytics" />Advanced Analytics
+        <p>Insights & reports</p>
+      </label>
+      <label for="customer-user-themes">
+        <input type="checkbox" id="customer-user-themes" />Customer User Themes
+        <p>Personalized dashboard design</p>
+      </label>
+      <label for="multi-user-collab">
+        <input type="checkbox" id="multi-user-collab" />Multi-User Collab
+        <p>Team access and sharing</p>
+      </label>
+      <label for="api-access">
+        <input type="checkbox" id="api-access" />Api Access
+        <p>Integrate with your custom tools</p>
+      </label>
     </div>
-</body>
+  </body>
 </html>
